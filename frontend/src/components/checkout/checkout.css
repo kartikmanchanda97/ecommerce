@@ -1,0 +1,8 @@
+.formContainer input {
+  background: #F9F9F9;
+}
+
+.formContainer input:focus {
+  background: #fff;
+  border-color: #CC9966;
+}

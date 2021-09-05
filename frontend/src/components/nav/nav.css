@@ -1,0 +1,33 @@
+nav ul li {
+  padding-right: 40px;
+}
+ 
+
+.previewContainer {
+  position: absolute;
+  background: #fff;
+  top: 50px;
+  right: 25px;
+  width: 250px;
+  z-index: 1;
+  opacity: 0;
+  box-shadow: 0 0 20px rgba(33,33,33,0.5);
+  transition: 0.1s;
+}
+
+.cartBtn:hover .previewContainer {
+  opacity: 1;
+}
+
+.cartPreviewContainer {
+  background: #FEFEFE;
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 990px) {
+  .cartBtn:hover .previewContainer {
+    display: none;
+  }
+}

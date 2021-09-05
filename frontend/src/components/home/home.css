@@ -1,0 +1,46 @@
+.cartContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+}
+
+.mainSlider {
+    width: 100%;
+    height: 500px;
+}
+
+.mainInfo {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.mainInfo a {
+    border: 1px solid #CC9966;
+    color: #CC9966;
+}
+
+.mainInfo a:hover {
+    border: none;
+    color: #fff;
+    background: #CC9966;
+}
+
+@media screen and (max-width: 1250px) {
+    .cartContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .cartContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cartContainer {
+      grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,14 @@
+.addToCartBtn {
+  background: transparent;
+  border: 1px solid #CC9966;
+  color: #CC9966;
+  width: 35%;
+  height: 35px;
+  transition: 0.2s;
+}
+
+.addToCartBtn:hover {
+  border: none;
+  background: #CC9966;
+  color: #fff;
+}

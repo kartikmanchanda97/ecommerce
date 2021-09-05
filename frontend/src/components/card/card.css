@@ -1,0 +1,16 @@
+.card img {
+    height: 250px;
+    object-fit: cover;
+} 
+
+.card .cardBtn {
+    color: #CC9966;
+    cursor: pointer;
+    display: inline;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.card:hover .cardBtn {
+    opacity: 1;
+}
